@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8026785297718629056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8026785297718629062}
+  - component: {fileID: 8026785297718629063}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8026785297718629062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026785297718629056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8026785297718629063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8026785297718629056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33647c16ad3920d488d2b3c43c03ba63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 0}
+  musicMixer: {fileID: 0}
+  sfxMixer: {fileID: 0}
+  fadeCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  lowpassCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  hitCD: 8
+  sfx:
+  - name: horn1
+    clip: {fileID: 8300000, guid: 4c40189c29467824fba9f8b0ca4c27c9, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: run
+    clip: {fileID: 8300000, guid: 9caed8770411a6246a3e7962dcbcdfa0, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: idle
+    clip: {fileID: 8300000, guid: e2feea420e88c7c41b10882cc6f7c464, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  music:
+  - name: truck
+    clip: {fileID: 8300000, guid: f640206f9a2ab8c43b54146c6e3fa52a, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  - name: combo
+    clip: {fileID: 8300000, guid: 7dc7735b8048ed7469085e42fc6fdfd2, type: 3}
+    volume: 1
+    pitch: 0
+    source: {fileID: 0}
+  carSpeed: 0
+  runSound:
+    name: 
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  idleSound:
+    name: 
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  EngineCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

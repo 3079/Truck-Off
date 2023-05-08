@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5308743530ff7894783256ff5e46c66c, type: 3}
+  m_Name: EngineForceCurveFront
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.9950275
+      value: -0.005153835
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: -0.74836123
+      value: -0.4085696
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: -0.3003584
+      value: -0.40873912
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: -0.0014415206
+      value: -0.10936862
+      inSlope: 0.8047819
+      outSlope: 0.8047819
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.260437
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.0000005159527
+      value: 0.5001062
+      inSlope: 0.023000631
+      outSlope: 0.023000631
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.30048534
+      value: 0.9987188
+      inSlope: -0.0028461753
+      outSlope: -0.0028461753
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30630866
+      outWeight: 0.6924654
+    - serializedVersion: 3
+      time: 0.5000917
+      value: 0.9985285
+      inSlope: 0.0011251684
+      outSlope: 0.0011251684
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.3324075
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.25012207
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
